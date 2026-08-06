@@ -1,0 +1,10 @@
+{
+  "name": "ukr-geo-gitcall",
+  "version": "1.0.0",
+  "description": "Corezoid Git Call: визначення adm2 (району) України за координатами точки",
+  "main": "usercode.js",
+  "dependencies": {
+    "@turf/boolean-point-in-polygon": "^7.1.0",
+    "@turf/helpers": "^7.1.0"
+  }
+}
