@@ -14,7 +14,7 @@ const { point } = require('@turf/helpers');
  * це набагато швидше, ніж читати/парсити файл на кожен запит.
  */
 
-const DEFAULT_GEOJSON_PATH = path.join(__dirname, 'data', 'ukr_admin2_light.geojson');
+const DEFAULT_GEOJSON_PATH = path.join(__dirname, 'data', 'ukr_admin2.geojson');
 
 class GeoIndex {
   constructor(geojsonPath = DEFAULT_GEOJSON_PATH) {
