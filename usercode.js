@@ -65,6 +65,7 @@ module.exports = (data) => {
   // Додаємо знайдені поля до параметрів задачі
   data.adm2_name1 = properties.adm2_name1 ?? '';
   data.adm2_pcode = properties.adm2_pcode ?? '';
+  data.adm1_name1 = properties.adm1_name1 ?? '';
 
   return data;
 };
